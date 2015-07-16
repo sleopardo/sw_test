@@ -1,5 +1,5 @@
 'use strict';
-importScripts('./serviceworker-cache-polyfill.js');
+importScripts('./sw/serviceworker-cache-polyfill.js');
 
 var CACHE_NAME = 'v3';
 var urlsToCache = [
