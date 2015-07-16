@@ -3,11 +3,11 @@ importScripts('./serviceworker-cache-polyfill.js');
 
 var CACHE_NAME = 'v3';
 var urlsToCache = [
-  "http://static.mlstatic.com/org-img/ch/ui/0.13.4/chico-jquery.min.js?cors",
-  "http://resources.mlstatic.com/homes/js/main_js__ve088811fe60.gz.js",
-  "http://static.mlstatic.com/org-img/chico/img/favicon.ico?new",
-  "http://sleopardo.github.io/sw_test/sw/resources/chico-mesh.min.css",
-  "http://sleopardo.github.io/sw_test/sw/resources/main_css__ve088811fe60.gz.css"
+  "https://static.mlstatic.com/org-img/ch/ui/0.13.4/chico-jquery.min.js?cors",
+  "https://resources.mlstatic.com/homes/js/main_js__ve088811fe60.gz.js",
+  "https://static.mlstatic.com/org-img/chico/img/favicon.ico?new",
+  "https://sleopardo.github.io/sw_test/sw/resources/chico-mesh.min.css",
+  "https://sleopardo.github.io/sw_test/sw/resources/main_css__ve088811fe60.gz.css"
 ];
 
 this.addEventListener('install', function(eve) {
